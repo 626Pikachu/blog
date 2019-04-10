@@ -1,0 +1,202 @@
+/* 头部导航 */
+.top {
+    border: 1px solid rgb(236, 236, 236);
+}
+
+.logo {
+    line-height: 75px;
+}
+
+.logo img {
+    width: 153px;
+    height: 30px;
+}
+
+.navXS {
+    height: 75px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navXS .search {
+    background: url(../images/tb3.png)no-repeat;
+}
+
+.user {
+    background: url(../images/tb2.png)no-repeat;
+}
+
+.goodscar {
+    background: url(../images/tb1.png)no-repeat;
+}
+
+.navXS .search,
+.user,
+.navXS .goodscar {
+    width: 20px;
+    height: 20px;
+    margin-right: 22.5px;
+    background-size: 20px 20px;
+    cursor: pointer;
+
+}
+
+.menu {
+    width: 35px;
+    height: 24px;
+    background: url(../images/menu.png)no-repeat;
+    background-size: 35px 24px;
+}
+
+.menu_off {
+    background: url(../images/tb4.png)no-repeat;
+}
+
+.menu_nav {
+    display: none;
+    position: absolute;
+    z-index: 100;
+    right: 0px;
+    top: 77px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    background: rgba(6, 11, 20, 0.8);
+}
+
+.menu_nav li {
+    color: white;
+    font-size: 1.4rem;
+    line-height: 4rem;
+    padding-left: 58px;
+    padding-right: 58px;
+}
+
+.navMD {
+    display: none;
+}
+
+._navMD {
+    height: 85px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.phone {
+    padding-left: 36px;
+    padding-right: 16px;
+    height: 30px;
+    background: url(../images/tel.png) no-repeat 0px 4px;
+}
+
+.phone i {
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(217, 97, 0);
+}
+
+._navMD .search {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    background: url(../images/search.png) no-repeat;
+}
+
+.Land,
+.register {
+    margin-right: 5px;
+    padding-left: 19px;
+    padding-right: 19px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+._navMD12 {
+    display: none;
+    height: 58px;
+}
+
+.top_nav12 li {
+    float: left;
+    font-size: 16px;
+    line-height: 58px;
+    padding-right: 15px;
+    margin-right: 35px;
+}
+
+.top_nav12 li:hover {
+    color: rgb(217, 97, 0);
+    background: url(../images/nav-li-img1.png)no-repeat right;
+}
+
+.actived {
+    color: rgb(217, 97, 0);
+}
+
+.top_nav12_s {
+    background: url(../images/nav-li-img2.png)no-repeat right;
+}
+
+.top_help {
+    height: 58px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.top_help li {
+    padding-left: 28px;
+    padding-right: 28px;
+    border-right: 1px solid #ccc;
+}
+
+.order {
+    background: url(../images/Orders.png)no-repeat left;
+}
+
+.top_help .goodscar {
+    display: block;
+    border: none;
+    width: 30px;
+    background: url(../images/shop-car.png)no-repeat center;
+}
+
+/* banner */
+
+
+/* 手机 */
+@media screen and (max-width:1024px) {
+
+}
+
+/* pc */
+@media screen and (min-width:1024px) {
+
+    /* 导航 */
+    .navXS {
+        height: 85px;
+    }
+
+    .logo img {
+        width: 220px;
+        height: 42px;
+    }
+
+    .navXS {
+        display: none;
+    }
+
+    .navMD {
+        display: block;
+    }
+
+    ._navMD12 {
+        display: block;
+    }
+
+    /* banner */
+    
+}
+
+
